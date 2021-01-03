@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "artificial_intelligence"
+version = "0.1.0"
+description = ""
+authors = ["Sergio Roldan <sergioroldan@quibim.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "<1.19.0"
+tensorflow = "^2.3.0"
+pandas = "^1.1.2"
+jupyterlab = "^2.2.8"
+matplotlib = "^3.3.2"
+seaborn = "^0.11.0"
+statsmodels = "^0.12.0"
+sklearn = "^0.0"
+bokeh = "^2.2.3"
+keras = {version = "^2.4.3", allow-prereleases = true}
+jupyter = "^1.0.0"
+flake8-nb = "^0.2.5"
+opencv-python = "^4.4.0"
+tqdm = "^4.54.1"
+scikit-image = "^0.17.2"
+pydot = "^1.4.1"
+graphviz = "^0.16"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
