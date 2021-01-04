@@ -23,6 +23,7 @@ tqdm = "^4.54.1"
 scikit-image = "^0.17.2"
 pydot = "^1.4.1"
 graphviz = "^0.16"
+tensorflow_hub = "^0.10.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
