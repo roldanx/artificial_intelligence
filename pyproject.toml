@@ -24,6 +24,8 @@ scikit-image = "^0.17.2"
 pydot = "^1.4.1"
 graphviz = "^0.16"
 tensorflow_hub = "^0.10.0"
+torch = "^1.7.1"
+torchvision = "^0.8.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

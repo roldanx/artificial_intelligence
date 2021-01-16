@@ -128,6 +128,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Sergio stuff
+# Personal
 .vscode
-AI_master
+masterAI
+ownAI/torch_alienVSpredator/data
